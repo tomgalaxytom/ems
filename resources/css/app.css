@@ -1,0 +1,15 @@
+@layer components {
+    .custom-grid {
+      @apply grid grid-cols-3 gap-4;
+      grid-template-areas:
+        "header header header"
+        "sidebar content content"
+        "footer footer footer";
+    }
+  
+    .header { @apply col-span-3; grid-area: header; }
+    .sidebar { @apply col-span-1; grid-area: sidebar; }
+    .content { @apply col-span-2; grid-area: content; }
+    .footer { @apply col-span-3; grid-area: footer; }
+  }
+  
