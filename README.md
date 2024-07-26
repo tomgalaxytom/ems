@@ -14,6 +14,10 @@ Tailwindcss,
 Alphine.js,
 Laravel,
 Livewire
+## Migration 
+
+php artisan migrate
+
 ## TALL Stack INSTALL with AUTH
 composer require livewire/livewire laravel-frontend-presets/tall
 php artisan ui tall --auth
@@ -44,6 +48,8 @@ composer update
 
 ## Sample export pdf file location
 ems/api_endpoints/filename.pdf
+
+
 
 
 
