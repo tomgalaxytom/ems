@@ -70,4 +70,5 @@ composer update
 
 ## Sample export pdf file location
 ems/api_endpoints/filename.pdf
-
+## Screen shots added below path
+ems/api_endpoints/screen_shots
