@@ -40,6 +40,8 @@ composer update
 
 composer require barryvdh/laravel-dompdf
 composer update
+#sample export pdf file location
+ems/api_endpoints/filename.pdf
 
 
 
