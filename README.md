@@ -14,9 +14,19 @@ Tailwindcss,
 Alphine.js,
 Laravel,
 Livewire
-## Migration ##
+# Rename File #
+.env.example rename to .env file
+# db creation in database
+
+ composer update
+
+ php artisan serve
+ 
+ ## Migration ##
 
 php artisan migrate
+
+
 
 ## TALL Stack INSTALL with AUTH
 composer require livewire/livewire laravel-frontend-presets/tall
