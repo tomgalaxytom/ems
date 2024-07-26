@@ -1,5 +1,5 @@
 # ems
-Employeement Management Systems
+Employeement Management System
 
 ## Node Version
 v20.16.0
@@ -14,6 +14,10 @@ Tailwindcss,
 Alphine.js,
 Laravel,
 Livewire
+## Migration ##
+
+php artisan migrate
+
 ## TALL Stack INSTALL with AUTH
 composer require livewire/livewire laravel-frontend-presets/tall
 <br>
