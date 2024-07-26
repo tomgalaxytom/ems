@@ -36,6 +36,9 @@ ems/api_endpoints/EMS.postman_collection.json
 composer require maatwebsite/excel
 composer update
 
+# sample Excel File Location
+ems/api_endpoints/ems_sample.xlsx
+
 # Export PDF
 
 composer require barryvdh/laravel-dompdf
