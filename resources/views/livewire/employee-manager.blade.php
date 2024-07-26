@@ -86,10 +86,17 @@
     </div>
     <div class="grid grid-cols-1 gap-4 mt-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
         @foreach($employees as $employee)
+            @php
+                // Create a DateTime object from the passed date string
+                $date = new DateTime($employee->dob);
+
+                // Format the date to 'dd-mm-yyyy'
+                $new_formate = $date->format('d-m-Y');
+            @endphp
             <div class="relative p-4 bg-green-500 rounded-md">
                 <h3 class="font-bold text-white">{{ $employee->name }}</h3>
                 <p class="text-white">Reg NO: {{$employee->register_no}}</p>
-                <p class="text-white">DOB: {{$employee->dob}}</p>
+                <p class="text-white">DOB: {{$new_formate}}</p>
                 <p class="text-white">Mobile: {{$employee->contact_no}}</p>
                 <p class="text-white">Address: {{ $employee->address }}</p>
                 <div class="absolute flex space-x-2 top-2 right-2">
