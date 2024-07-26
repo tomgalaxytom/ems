@@ -21,7 +21,10 @@ Livewire
  composer update
 
  php artisan serve
- 
+
+ npm run dev
+ url: http://127.0.0.1:8000/
+
  ## Migration ##
 
 php artisan migrate
