@@ -16,6 +16,7 @@ Laravel,
 Livewire
 ## TALL Stack INSTALL with AUTH
 composer require livewire/livewire laravel-frontend-presets/tall
+<br>
 php artisan ui tall --auth
 npm install
 npm run dev
