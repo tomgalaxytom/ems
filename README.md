@@ -24,10 +24,22 @@ npm run dev
 app/traits/ApiResponse.php (using traits)
 using trait in this Employee API class
   use ApiResponse;
-## Get Employees
-http://127.0.0.1:8000/api/employees
 
-http://127.0.0.1:8000/api/employee-by-email?email=tom@gmail.com
+# Api EndPoints
+
+Api file endpoint file is located by 
+
+ems/api_endpoints/EMS.postman_collection.json
+
+# Import Excel Upload
+
+composer require maatwebsite/excel
+composer update
+
+# Export PDF
+
+composer require barryvdh/laravel-dompdf
+composer update
 
 
 

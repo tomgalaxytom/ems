@@ -1,0 +1,100 @@
+{
+	"info": {
+		"_postman_id": "04139eba-a1eb-45a2-a90b-a9c3f33b6312",
+		"name": "EMS",
+		"description": "Employee management API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get Employees",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/employees",
+					"host": [
+						"http://127.0.0.1:8000/api/"
+					],
+					"path": [
+						"employees"
+					]
+				},
+				"description": "Get all employees as jason format"
+			},
+			"response": []
+		},
+		{
+			"name": "Get Employee by Email",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/employee-by-email?email=tom@gmail.com",
+					"host": [
+						"http://127.0.0.1:8000/api/"
+					],
+					"path": [
+						"employee-by-email"
+					],
+					"query": [
+						{
+							"key": "email",
+							"value": "tom@gmail.com"
+						}
+					]
+				},
+				"description": "Get all employees as jason format"
+			},
+			"response": []
+		},
+		{
+			"name": "Get Employee by Register No",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/employee-by-reg_no?reg_no=EMP002",
+					"host": [
+						"http://127.0.0.1:8000/api/"
+					],
+					"path": [
+						"employee-by-reg_no"
+					],
+					"query": [
+						{
+							"key": "reg_no",
+							"value": "EMP002"
+						}
+					]
+				},
+				"description": "Get all employees as jason format"
+			},
+			"response": []
+		},
+		{
+			"name": "Get Employee by Contact Number",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/employee-by-mobile?mobile=9568745214",
+					"host": [
+						"http://127.0.0.1:8000/api/"
+					],
+					"path": [
+						"employee-by-mobile"
+					],
+					"query": [
+						{
+							"key": "mobile",
+							"value": "9568745214"
+						}
+					]
+				},
+				"description": "Get all employees as jason format"
+			},
+			"response": []
+		}
+	]
+}
