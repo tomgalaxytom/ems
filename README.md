@@ -24,26 +24,25 @@ npm run dev
 app/traits/ApiResponse.php (using traits)
 using trait in this Employee API class
   use ApiResponse;
+## Api EndPoints
 
-# Api EndPoints
-
-Api file endpoint file is located by 
+## Api file endpoint file is located by 
 
 ems/api_endpoints/EMS.postman_collection.json
-
-# Import Excel Upload
+## Import Excel Upload
 
 composer require maatwebsite/excel
 composer update
 
-# sample Excel File Location
+## Sample Excel File Location
 ems/api_endpoints/ems_sample.xlsx
 
-# Export PDF
+##  Export PDF
 
 composer require barryvdh/laravel-dompdf
 composer update
-#sample export pdf file location
+
+## Sample export pdf file location
 ems/api_endpoints/filename.pdf
 
 
